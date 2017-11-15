@@ -2,7 +2,7 @@
 
 
 require('Db.php');
-Db::connect('wm140.wedos.net', 'd153168_data', 'w153168_data', 'HH3WgjUN');
+Db::connect('server_name', 'db_name', 'login', 'password');
 
 if ($_POST){
 
